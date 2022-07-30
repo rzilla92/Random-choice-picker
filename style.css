@@ -28,7 +28,7 @@ h3 strong{
 }
 
 .container  {
-  width: 500px;
+  width: 95vw;
 }
 
 textarea {
@@ -56,4 +56,10 @@ textarea {
 .tag.highlight  {
   background-color: #01189b;
   color: #b2f2ff;
+}
+
+@media screen and (min-width: 769px) {
+  .container{
+    width: 500px;
+  }
 }
